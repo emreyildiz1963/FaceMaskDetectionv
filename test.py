@@ -18,7 +18,7 @@ rect_size = 4
 cap = cv2.VideoCapture(0) 
 
 #OpenCv Yüz Tanıma kütüphanesini ekliyoruz
-haarcascade = cv2.CascadeClassifier('C:/Users/Emre/anaconda3/envs/facemask/Lib/site-packages/cv2/data/haarcascade_frontalface_alt2.xml')
+haarcascade = cv2.CascadeClassifier('haarcascade_frontalface_alt2.xml')
 
 while True:
     rval, im = cap.read()
