@@ -5,18 +5,9 @@ conda create -n myenv python=3.6
 
 conda activate myenv
 
+cd .../facemask
 
-pip install tensorflow-gpu
-
-pip install keras
-
-pip install imutils
-
-pip install opencv-python
-
-pip install Pillow
-
-pip install scikit-learn
+pip install -r requirements.txt
 
 
 python train.py
